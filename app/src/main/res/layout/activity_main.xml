@@ -21,4 +21,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <!-- Nút mở Linear Layout 1 -->
+    <Button
+        android:id="@+id/btnOpenLinearActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở Linear Layout 1"
+        android:padding="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/switchTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Nút mở Linear Layout 2 -->
+    <Button
+        android:id="@+id/btnOpenLinearActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở Linear Layout 2"
+        android:padding="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenLinearActivity1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
